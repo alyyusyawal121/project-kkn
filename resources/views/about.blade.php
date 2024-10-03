@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +9,7 @@
 
   
       <!-- Favicons -->
-      <link href="{{ url('public/img/favicon.png')}}" rel="icon">
+    <link href="{{ url('public/img/favicon.png')}}" rel="icon">
     <link href="{{ url('public/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Fonts -->

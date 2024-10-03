@@ -138,7 +138,7 @@
                 </svg>
                 <i class="bi bi-activity"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{route('potensi-detail')}}" class="stretched-link">
                 <h3>Nesciunt Mete</h3>
               </a>
               <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
@@ -153,7 +153,7 @@
                 </svg>
                 <i class="bi bi-broadcast"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{route('potensi-detail')}}" class="stretched-link">
                 <h3>Eosle Commodi</h3>
               </a>
               <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
@@ -168,7 +168,7 @@
                 </svg>
                 <i class="bi bi-easel"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{route('potensi-detail')}}" class="stretched-link">
                 <h3>Ledo Markt</h3>
               </a>
               <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
@@ -183,11 +183,11 @@
                 </svg>
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{route('potensi-detail')}}" class="stretched-link">
                 <h3>Asperiores Commodit</h3>
               </a>
               <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="{{route('potensi-detail')}}" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -199,11 +199,11 @@
                 </svg>
                 <i class="bi bi-calendar4-week icon"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{route('potensi-detail')}}" class="stretched-link">
                 <h3>Velit Doloremque</h3>
               </a>
               <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="{{route('potensi-detail')}}" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -215,11 +215,11 @@
                 </svg>
                 <i class="bi bi-chat-square-text"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{route('potensi-detail')}}" class="stretched-link">
                 <h3>Dolori Architecto</h3>
               </a>
               <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="{{route('potensi-detail')}}" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -234,7 +234,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
+        <h2>Galeri</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
@@ -257,7 +257,7 @@
                 <h4>App 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href=" {{ asset('img/masonry-portfolio/masonry-portfolio-1.jpg')}}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -267,7 +267,7 @@
                 <h4>Product 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg')}}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -277,7 +277,7 @@
                 <h4>Branding 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-3.jpg')}}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -287,7 +287,7 @@
                 <h4>App 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-4.jpg')}}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -297,7 +297,7 @@
                 <h4>Product 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-5.jpg')}}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -307,7 +307,7 @@
                 <h4>Branding 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-6.jpg')}}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -317,7 +317,7 @@
                 <h4>App 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-7.jpg')}}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -327,7 +327,7 @@
                 <h4>Product 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-8.jpg')}}" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -337,7 +337,7 @@
                 <h4>Branding 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-9.jpg')}}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{route('galeri-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -349,56 +349,6 @@
 
     </section><!-- /Portfolio Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Clients</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-0 clients-wrap">
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="{{ asset('clients/client-1.png')}}" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="{{ asset('clients/client-2.png')}}" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="{{ asset('clients/client-3.png')}}" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="{{ asset('clients/client-4.png')}}" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="{{ asset('clients/client-5.png')}}" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="{{ asset('clients/client-6.png')}}" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="{{ asset('clients/client-7.png')}}" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="{{ asset('clients/client-8.png')}}" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
 
   </main>
 

@@ -29,7 +29,7 @@
 
 </head>
 <body>
-<header id="header" class="header d-flex align-items-center sticky-top">
+    <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container position-relative d-flex align-items-center">
             <a href="{{ route('index') }}" class="logo d-flex align-items-center me-auto">
                 <h1 class="sitename">Company</h1><span>.</span>
@@ -87,7 +87,7 @@
 
             <hr>
 
-            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{route('blog-detail')}}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
           </div>
 
@@ -122,7 +122,7 @@
 
             <hr>
 
-            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{route('blog-detail')}}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
           </div>
 
@@ -157,7 +157,7 @@
 
             <hr>
 
-            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{route('blog-detail')}}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
           </div>
 
@@ -192,7 +192,7 @@
 
             <hr>
 
-            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{route('blog-detail')}}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
           </div>
 
@@ -227,7 +227,7 @@
 
             <hr>
 
-            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{route('blog-detail')}}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
           </div>
 
@@ -262,7 +262,7 @@
 
             <hr>
 
-            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{route('blog-detail')}}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
           </div>
 

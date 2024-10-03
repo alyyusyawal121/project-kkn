@@ -14,4 +14,16 @@ class HomeController extends Controller
     {
         return view('potensi');
     }
+    public function galeridetail()
+    {
+        return view('galeri-detail');
+    }
+    public function galeri()
+    {
+        return view('galeri');
+    }
+    public function blog()
+    {
+        return view('blog');
+    }
 }

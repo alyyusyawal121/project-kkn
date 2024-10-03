@@ -15,15 +15,24 @@ Route::get('/about', function () {
 Route::get('/blog', function () {
     return view('blog'); // Adjust as necessary
 })->name('blog');
+Route::get('/blog-detail', function () {
+    return view('blog-detail'); // Adjust as necessary
+})->name('blog-detail');
 Route::get('/galeri', function () {
     return view('galeri'); // Adjust as necessary
 })->name('galeri');
+Route::get('/galeri-detail', function () {
+    return view('galeri-detail'); // Adjust as necessary
+})->name('galeri-detail');
 Route::get('/kegiatan', function () {
     return view('kegiatan'); // Adjust as necessary
 })->name('kegiatan');
 Route::get('/potensi', function () {
     return view('potensi'); // Adjust as necessary
 })->name('potensi');
+Route::get('/potensi-detail', function () {
+    return view('potensi-detail'); // Adjust as necessary
+})->name('potensi-detail');
 Route::get('/contact', function () {
     return view('contact'); // Adjust as necessary
 })->name('contact');
