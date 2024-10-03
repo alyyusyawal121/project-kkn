@@ -6,6 +6,8 @@ use App\Http\Controllers\HomeController;
 //     return view('welcome');
 // });
 
+use App\Http\Controllers\BlogController;
+
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/potensi', [HomeController::class, 'potensi'])->name('potensi');
 
@@ -36,3 +38,8 @@ Route::get('/potensi-detail', function () {
 Route::get('/contact', function () {
     return view('contact'); // Adjust as necessary
 })->name('contact');
+
+
+
+Route::resource('blogs', BlogController::class);
+Route::get('/posts/{id}', [PostController::class, 'show'])->name('posts.show');
